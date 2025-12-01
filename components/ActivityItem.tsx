@@ -76,7 +76,7 @@ const ActivityItem: React.FC<ActivityItemProps> = ({ item, isLast }) => {
           {item.imageUrl && (
             <div className="h-40 w-full overflow-hidden relative">
                 <img 
-                    src={imgError ? 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80' : item.imageUrl} 
+                    src={imgError ? 'https://static.gltjp.com/glt/data/article/21000/20183/20220816_213837_c9df6285_w1920.webp' : item.imageUrl} 
                     alt={item.title} 
                     onError={() => setImgError(true)}
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" 

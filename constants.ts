@@ -1,5 +1,4 @@
 
-
 import { ActivityType, DayItinerary, FlightInfo, Accommodation, TransportMapItem } from './types';
 
 // Precise location data and curated images matching the user's PDF references
@@ -20,7 +19,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         location: 'Narita Airport Terminal 1',
         address: 'Narita International Airport (NRT), Chiba, Japan',
         // Exterior of Terminal 1
-        imageUrl: './assets/pictures/narita_airport.jpg', 
+        imageUrl: './assets/pictures/asakusa_toukaisou.jpg', 
         highlights: [
           { category: 'TIP', text: '入境約需 40-60 分鐘' }
         ]
@@ -35,7 +34,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         location: 'Narita Airport Station',
         address: 'Narita Airport Station, Chiba',
         // Orange Keisei 3100 series train
-        imageUrl: './assets/pictures/keisei_access_express.jpg',
+        imageUrl: 'https://www.keisei.co.jp/keisei/tetudou/skyliner/tc/assets/images/top/routemap_express.jpg',
         highlights: [
           { category: 'TIP', text: '可使用 Suica/Pasmo 刷卡進站' },
           { category: 'TIP', text: '車程約 60 分鐘' }
@@ -51,7 +50,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: 'Check-in 放行李。',
         guideStory: '東海莊是一家位於淺草寧靜巷弄中的傳統旅館，能體驗到濃厚的昭和風情。周邊有許多錢湯（公共澡堂）。',
         // Traditional Ryokan collage style
-        imageUrl: './assets/pictures/asakusa_toukaisou.jpg', 
+        imageUrl: 'https://q-xx.bstatic.com/xdata/images/hotel/max500/249891198.jpg?k=0421f96cc13dc51a72c0d1af1b198befbad88863639ec8de40ee9442d38003f1&o=', 
         highlights: [
           { category: 'TIP', text: '櫃台時間至 22:00' }
         ]
@@ -66,7 +65,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '【染太郎】體驗自己煎御好燒，或【與ろゐ屋】品嚐清爽柚子拉麵。',
         guideStory: '染太郎是淺草著名的老店，木造建築非常有氣氛，許多文人雅士都曾造訪。榻榻米座位需要脫鞋。若不想油煙味太重，與ろゐ屋的雙黃蛋拉麵是清爽首選，就在傳法院通上。',
         // Okonomiyaki cooking on hot plate
-        imageUrl: './assets/pictures/sometaro_okonomiyaki.jpg', 
+        imageUrl: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNqlAm4EsuHNVDBZs5_h-wfYSjmA8e0nNEoLltb3CWKLMX_PHxcBr82PQFWOZw61hTztvHEUR_FUZ-Y0ZvN9dC2zVk69p_TsL6d7GMkyxBvK-lUEsDP7YkZtIp-wv4Nrp7PQGV1-4YJkfd/s640/IMG_6925.jpg', 
         highlights: [
           { category: 'MUST_EAT', text: '染太郎：什錦御好燒 (Osome-yaki)' },
           { category: 'MUST_EAT', text: '與ろゐ屋：柚子醬油拉麵' },
@@ -83,7 +82,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '夜間參拜散步，避開白天人潮。',
         guideStory: '晚上的淺草寺本堂會關門，但雷門、五重塔與寶藏門都會打燈直到 23:00。此時仲見世通的店家拉下鐵門，鐵捲門上有描繪淺草歷史的「淺草繪卷」，是白天看不到的隱藏版景點！',
         // Night view of Kaminarimon/Sensoji lit up
-        imageUrl: './assets/pictures/sensoji_night.jpg', 
+        imageUrl: 'https://nightscape.tokyo/tw/wp-content/uploads/2023/01/asakusa-2.jpg', 
         highlights: [
           { category: 'TIP', text: '必拍：發光的雷門大燈籠' },
           { category: 'TIP', text: '必拍：仲見世通鐵捲門彩繪' }
@@ -107,7 +106,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '享受無人的雷門。',
         guideStory: '早晨 7 點前的淺草寺空氣特別清新，常能看到當地人在此晨運或遛狗，是感受「下町」生活感的最佳時刻。',
         // Morning Sensoji
-        imageUrl: './assets/pictures/sensoji_morning.jpg',
+        imageUrl: 'https://travel.jr-central.co.jp/plan/tokushu/ex/blog/0002/images/img_mv.webp',
         highlights: [
           { category: 'TIP', text: '最佳拍照點：雷門正對面馬路' }
         ]
@@ -122,7 +121,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '專賣味噌湯與飯糰的文青早餐店。',
         guideStory: '這是一家將傳統味噌湯做得很時尚的店。湯料非常豐富，有整塊蔬菜或肉類。二樓有用餐區，裝潢以書法和攝影作品為主，非常適合拍照。',
         // Miso soup set
-        imageUrl: './assets/pictures/misojyu_breakfast.jpg',
+        imageUrl: 'https://img.bigfang.tw/2023/12/1702775631-4efdd2f969559e8b1c92e99f32ded48e.jpg',
         highlights: [
           { category: 'MUST_ORDER', text: 'Morning Set (飯糰+味噌湯)' },
           { category: 'MUST_EAT', text: '角煮味噌湯' }
@@ -138,7 +137,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         location: 'Shinjuku Station',
         address: 'Shinjuku Station, Tokyo',
         // JR Shinjuku Station Sign
-        imageUrl: './assets/pictures/shinjuku_station.jpg', 
+        imageUrl: 'https://tabiaruko.com/wp-content/uploads/2024/09/30809066_m-1.jpg', 
         highlights: [
           { category: 'TIP', text: '建議走「東口」或「南口」進站' },
           { category: 'TIP', text: '目標：JR 特急月台' }
@@ -154,7 +153,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '直達河口湖的特急列車。',
         guideStory: '富士回遊號是前往河口湖最舒適的方式。列車進入山梨縣後，請留意車窗「左側」，天氣好時能看到巨大的富士山逼近眼前！',
         // E353 Series Train
-        imageUrl: './assets/pictures/fuji_excursion_train.jpg',
+        imageUrl: 'https://www.fujikyu-railway.jp/common/images/fujikaiyuu/train1.jpg',
         highlights: [
           { category: 'TIP', text: '座位推薦：左側窗邊 (D席)' },
           { category: 'RESERVATION', text: '全車指定席，需事先劃位' }
@@ -170,7 +169,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '絕叫系的聖地！',
         guideStory: '這裡有金氏世界紀錄等級的雲霄飛車。如果不玩設施，這裡也有「麗莎與卡斯柏小鎮」，充滿法式風情，還有免費的富士山景觀台。',
         // Roller coaster (Fujiyama)
-        imageUrl: './assets/pictures/fuji_q_highland.jpg',
+        imageUrl: 'https://www.fujiq.jp/igflrr000000003y-img/top_mtfuji.png',
         highlights: [
           { category: 'TIP', text: '必玩：FUJIYAMA 過山車' },
           { category: 'TIP', text: '必玩：Eejanaika (翻轉次數最多)' }
@@ -186,7 +185,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '從樂園搭公車 10–15 分，享受湖畔寧靜。',
         guideStory: '河口湖是富士五湖中開發最完善的。沿著湖畔步道走，可以看到富士山倒映在湖面的「逆富士」美景（通常清晨或傍晚無風時最明顯）。',
         // Lake Kawaguchi with Cherry Blossoms
-        imageUrl: './assets/pictures/lake_kawaguchi.jpg',
+        imageUrl: 'https://onsen-ryokan.hk/wp-content/uploads/2017/04/d08050220154d2e1a27469c4c0d51b1b.jpg',
         highlights: [
           { category: 'TIP', text: '預計停留至 17:30' },
           { category: 'TIP', text: '最佳拍攝點：產屋崎' }
@@ -202,7 +201,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '傳統日式溫泉旅館。',
         guideStory: '這間飯店的所有房間都面湖，可以躺在房間看富士山。辦理入住後，稍作休息準備享用晚餐。',
         // Tatami room with Fuji view
-        imageUrl: './assets/pictures/mifujien_room.jpg',
+        imageUrl: 'https://cdn.jalan.jp/jalan/images/pict3L/Y7/Y310977/Y310977062.jpg',
         highlights: [
           { category: 'TIP', text: '大廳有免費茶水' }
         ]
@@ -217,7 +216,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '飯店內享用豐盛晚餐與溫泉。',
         guideStory: '晚餐是精緻的會席料理，包含山梨縣特產。餐後請務必體驗露天風呂，運氣好能看到富士山下的點點燈火。',
         // Kaiseki dinner set
-        imageUrl: './assets/pictures/mifujien_dinner.jpg',
+        imageUrl: 'https://cdn.jalan.jp/jalan/images/pict3L/Y7/Y310977/Y310977162.jpg',
         highlights: [
           { category: 'MUST_EAT', text: '飯店懷石料理' },
           { category: 'TIP', text: '溫泉開放至午夜' }
@@ -241,7 +240,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '坐公車約 9 分鐘，享受湖畔咖啡。',
         guideStory: '這是一間擁有絕佳景觀的咖啡廳，頂樓露台可以直接眺望富士山。他們的拿鐵拉花非常精緻。',
         // Coffee with view
-        imageUrl: './assets/pictures/haostay_coffee.jpg', 
+        imageUrl: 'https://www.porta-y.jp/wp-content/uploads/2023/02/haostay_coffee-230207-2.jpg', 
         highlights: [
           { category: 'MUST_ORDER', text: '富士山造型拿鐵' }
         ]
@@ -256,7 +255,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '開始自駕之旅！',
         guideStory: '日本為右駕，雨刷和方向燈與台灣相反，請務必慢行適應。出發前請設定好導航（輸入 MapCode 或電話號碼最準確）。',
         // Car rental / Driving
-        imageUrl: './assets/pictures/nippon_rentacar.jpg', 
+        imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwf0XtBKJsW-nE2AeCDi0_0ksGGC_mZVxG0Vpr-e0ap0AabKC0crm9y8KADOodTeR_LaZu8BwtQwD_2Y2GDN9u59mZK-uhVpTUEuM5p2OUu7c71sqPTwu-VHzYs7T35dxIRzCkKAg=w243-h174-n-k-no-nu', 
         highlights: [
           { category: 'TIP', text: '需攜帶：台灣駕照 + 日文譯本' },
           { category: 'TIP', text: '或：國際駕照 (IDP)' }
@@ -272,7 +271,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: '世界文化遺產，清澈的湧泉群。',
         guideStory: '這裡的水是富士山融雪經過80年過濾而成的，清澈見底。「湧池」是最深也最美的一個，藍得不可思議。觀光客多，建議往裡面走到「鏡池」拍逆富士。',
         // Oshino Hakkai Ponds
-        imageUrl: './assets/pictures/oshino_hakkai.jpg', 
+        imageUrl: 'https://static.gltjp.com/glt/data/directory/12000/11258/20201026_054156_c0b3552b_w1920.webp', 
         highlights: [
           { category: 'MUST_EAT', text: '現烤草餅 (Kusa Mochi)' },
           { category: 'MUST_EAT', text: '名水豆腐' },
@@ -289,7 +288,7 @@ export const ITINERARY_DATA: DayItinerary[] = [
         description: 'Meshi Dokoro Yoshizawa (定食) 或 Reel Cafe (拉麵)。',
         guideStory: '山中湖是五湖中面積最大的，也是著名的「天鵝湖」。Reel Cafe 是一家由舊義大利餐廳改建的拉麵店，湯頭非常細緻，是拉麵迷的隱藏名單。',
         // Japanese Set Meal
-        imageUrl: './assets/pictures/yamanakako_lunch.jpg', 
+        imageUrl: 'https://www.porta-y.jp/wp-content/uploads/2025/02/meshidokoro-yoshizawa-250213-3.jpg', 
         highlights: [
           { category: 'MUST_EAT', text: 'Reel Cafe：醬油拉麵' },
           { category: 'TIP', text: '若選 Yoshizawa：推薦炸豬排定食' }
